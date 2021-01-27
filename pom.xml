@@ -104,6 +104,21 @@
 
     </properties>
 
+    <repositories>
+        <repository>
+            <id>public-jboss</id>
+            <name>Public JBoss Repository Group</name>
+            <url>https://repository.jboss.org/nexus/content/groups/public-jboss/</url>
+        </repository>
+    </repositories>
+    <pluginRepositories>
+        <pluginRepository>
+            <id>public-jboss-plugins</id>
+            <name>Public JBoss Repository Group</name>
+            <url>https://repository.jboss.org/nexus/content/groups/public-jboss/</url>
+        </pluginRepository>
+    </pluginRepositories>
+    
     <modules>
         <module>parser-generator</module>
         <module>core</module>
